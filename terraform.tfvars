@@ -13,8 +13,8 @@ default_redirect_uri = "http://localhost:3000/callback"
 
 # Test User (Change password to meet complexity: min 8 chars, uppercase, lowercase, numbers, symbols)
 test_username       = "testuser"
-test_user_email     = "govind.kandale@roimaint.com"
-test_user_password  = "aB9!Qx$7M@2k#Zp%rL8^S&dW5J*HcY0?"
+test_user_email     = "mail@.com"
+test_user_password  = "password"
 
 # API Configuration
 api_name    = "secure-api"
@@ -33,4 +33,5 @@ tags = {
 
 # Azure Entra ID Configuration
 enable_azure_integration = true
+
 azure_tenant_id          = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"  # Replace with your Azure tenant ID
